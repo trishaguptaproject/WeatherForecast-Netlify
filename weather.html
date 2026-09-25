@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Forecast</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            🌤️ Weather Forecast
+        </div>
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="history.html">
+                History
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- WEATHER PAGE -->
+
+    <main id="weatherPage">
+
+        <div id="weatherContainer">
+
+            <h1 id="locationName">
+                Loading...
+            </h1>
+
+
+            <!-- MAIN WEATHER CARD -->
+
+            <div class="weather-card">
+
+                <div id="weatherIcon"
+                     class="weather-icon">
+                    ⏳
+                </div>
+
+
+                <div id="temperature"
+                     class="temperature">
+                    --°C
+                </div>
+
+
+                <h2 id="weatherCondition">
+                    Loading weather...
+                </h2>
+
+
+                <p>
+                    Feels like
+                    <span id="feelsLike">
+                        --°C
+                    </span>
+                </p>
+
+
+                <div class="weather-stats">
+
+                    <div>
+
+                        <span>
+                            💧 Humidity
+                        </span>
+
+                        <strong id="humidity">
+                            --%
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            💨 Wind Speed
+                        </span>
+
+                        <strong id="windSpeed">
+                            -- km/h
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HOURLY -->
+
+            <section>
+
+                <h2>
+                    Next 12 Hours
+                </h2>
+
+                <div id="hourlyForecast"
+                     class="hourly-forecast">
+                </div>
+
+            </section>
+
+
+            <!-- DAILY -->
+
+            <section>
+
+                <h2>
+                    7-Day Forecast
+                </h2>
+
+                <div id="dailyForecast"
+                     class="daily-forecast">
+                </div>
+
+            </section>
+
+
+            <br>
+
+            <a href="index.html"
+               class="search-button">
+
+                Search another city
+
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Search History</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="top-header">
+
+    <div class="container nav-container">
+
+        <div class="logo">
+
+            <span class="logo-icon">☀</span>
+
+            <span>Weather Forecast</span>
+
+        </div>
+
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="history.html" class="active">
+                History
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main class="history-page">
+
+    <div class="container">
+
+        <div class="page-title">
+
+            <span>SEARCH HISTORY</span>
+
+            <h1>Recent Searches</h1>
+
+            <p>
+                Your recent weather searches are stored
+                in this browser.
+            </p>
+
+        </div>
+
+
+        <div class="history-actions">
+
+            <a
+                href="index.html"
+                class="primary-button"
+            >
+                + Search New City
+            </a>
+
+
+            <button
+                id="clearHistoryButton"
+                class="danger-button"
+            >
+                Clear History
+            </button>
+
+        </div>
+
+
+        <div class="history-card">
+
+            <div id="historyContainer">
+
+                <div class="loading">
+                    Loading history...
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <strong>Weather Forecast</strong>
+
+            <p>
+                Weather forecasting web application.
+            </p>
+
+        </div>
+
+        <div class="footer-right">
+            Open-Meteo Weather API
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
